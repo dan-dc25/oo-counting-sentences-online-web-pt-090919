@@ -6,7 +6,7 @@ class String
     if self.end_with?(" . ")
       return true
     else 
-      false
+     return false
     end
   end
 
@@ -14,7 +14,7 @@ class String
     if self.end_with?(" ? ")
       return true
     else
-       false
+       return false
     end
   end
 
@@ -22,7 +22,7 @@ class String
     if self.end_with?(" ! ")
       return true
     else
-       false
+       return false
     end
   end
 
